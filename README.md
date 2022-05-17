@@ -1,24 +1,46 @@
-# README
+## アプリケーション名
+ stress-relife-method
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アプリケーション概要
+ 書籍「超ストレス解消法 イライラが一瞬で消える100のメソッド」(出版：株式会社鉄人社 著者：鈴木祐)の第4章で紹介されている「即効性」に焦点を絞ったテクニックを選出し、それを実行することでストレス解消をする。
 
-Things you may want to cover:
+## URL
+ https:追記予定
 
-* Ruby version
+ ID:admin
+ 
+ Pass:2222
+## テスト用アカウント
+ なし
+## 利用方法
+### メソッド選択
+ 1.トップページの左のサイドビューに一覧表示されているメソッド名を選択する。あるいはランダム選択ボタンを押す。
 
-* System dependencies
+ 2.選択したメソッドの詳細ページに遷移されるので、指示に従う。
 
-* Configuration
+## アプリケーションを作成した背景
+ ハーバードやスタンフォードなど一流の研究機関が実証した、科学的に正しいストレス解消法が世に沢山ある。
+ その方法をまとめて解説しているのが書籍「超ストレス解消法 イライラが一瞬で消える100のメソッド」である。
+ 私の周囲には正しいストレス対策を知るものがいなかったことと、この書籍の内容を実践しやすいアプリが個人的に欲しいと思い、作成するに至った。
 
-* Database creation
+## 洗い出した要件
+[要件を定義したシート](https://docs.google.com/spreadsheets/d/1FcoBSftfgA1gJI5tuhEEsCplqY7YogoQMGu0nKjEg-0/edit#gid=982722306)
 
-* Database initialization
 
-* How to run the test suite
+## 実装した機能についての画像やGIFおよびその説明
+ 追記予定
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## 画面遷移図
+ 追記予定
 
-* ...
+## 開発環境
+- ruby
+- html
+- css
+
+## ローカルでの動作方法
+ 追記予定
+
+## 工夫したポイント
+ 追記予定
