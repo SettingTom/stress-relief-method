@@ -3,12 +3,12 @@
 }
 
 .side-bar {
-  background-color: #4c8536;
+  background-color: #c0dab5;
   width: 200px;
   height: 100vh;
 }
 
 .main {
-  background-color: #2bab7e;
+  background-color: #93e7ca;
   width: calc(100vw - 200px);
 }
