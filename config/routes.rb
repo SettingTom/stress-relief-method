@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'methods/index'
-  get 'gets', to: 'methods#method1'
   root to: "methods#index"
-  resources :methods, only: [:index, :show]
-
+  resources :methods, only: [:index]
+  get 'gets1', to: 'methods#method1'
+  get 'gets2', to: 'methods#method2'
 end
