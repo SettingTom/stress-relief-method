@@ -1,0 +1,14 @@
+.wrapper{
+  display: flex;
+}
+
+.side-bar {
+  background-color: #4c8536;
+  width: 200px;
+  height: 100vh;
+}
+
+.main {
+  background-color: #2bab7e;
+  width: calc(100vw - 200px);
+}
