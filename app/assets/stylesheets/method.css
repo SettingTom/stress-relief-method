@@ -4,13 +4,15 @@
 
 .side-bar {
   background-color: #c0dab5;
-  width: 300px;
-  padding-top: 20px;
+  padding-top: 10px;
+  margin-left: -20px;
+  padding-right: 10px;
+  /* width: 300px; */
   /* height: 100vh; */
 }
 
 .main {
   background-color: #93e7ca;
-  width: calc(100vw - 300px);
+  width: calc(100vw);
   padding: 20px;
 }
