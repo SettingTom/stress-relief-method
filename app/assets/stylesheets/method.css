@@ -2,6 +2,10 @@
   display: flex;
 }
 
+header{
+  background-color: #9ae793;
+}
+
 .side-bar {
   background-color: #c0dab5;
   padding-top: 10px;
