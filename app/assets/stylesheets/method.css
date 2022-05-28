@@ -16,3 +16,8 @@
   width: calc(100vw);
   padding: 20px;
 }
+
+footer{
+  background-color: #9ae793;
+  padding: 40px 20px 20px 20px;
+}
