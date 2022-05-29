@@ -38,6 +38,7 @@ window.onload = function(){
       sec.innerHTML = 0;
       min.innerHTML = 0;
       toggle();
+      alert("14秒経過しました。");
       clearInterval( counter );
     } else {
       time -= 1;
