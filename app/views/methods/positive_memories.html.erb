@@ -42,21 +42,24 @@
         <tr>
           <td>① 14秒だけ過去の良い記憶を思い出してください。(楽しかった旅行や誰かに褒められたなど)</td>
         </tr>
+        <tr>
+          <td>
+            <div id="timer">
+              <h3>14秒タイマー</h3>
+              <p>
+                <span id="min">0</span> 分
+                <span id="sec">14</span> 秒
+              </p>
+              <p>
+                <input type="button" id="start" value="スタート">
+                <input type="button" id="stop" value="ストップ" disabled>
+                <input type="button" id="reset" value="リセット">
+              </p>
+            </div>
+          </td>
+        </tr>
       </tbody>
     </table>
-
-    <div id="timer">
-      <h1>14秒タイマー</h1>
-      <p>
-        <span id="min">0</span> m
-        <span id="sec">14</span> s
-      </p>
-      <p>
-        <input type="button" id="start" value="スタート">
-        <input type="button" id="stop" value="ストップ" disabled>
-        <input type="button" id="reset" value="リセット">
-      </p>
-    </div>
 
     <script>
       let time = 14
