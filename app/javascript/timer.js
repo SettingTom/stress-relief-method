@@ -22,4 +22,14 @@ window.onload = function(){
     sec.innerHTML = time % 60;
     min.innerHTML = Math.floor( time / 60 );
   }
-} 
+
+  function toggle() {
+    if( start.disabled ) {
+     start.disabled = false;
+     stop.disabled = true;
+   } else {
+     start.disabled = true
+     stop.disabled = false;
+     }
+   }
+}
