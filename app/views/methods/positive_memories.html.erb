@@ -60,6 +60,12 @@
 
     <script>
       let time = 14
+
+      reset.onclick = function() {
+        time = 14;
+        sec.innerHTML = time % 60;
+        min.innerHTML = Math.floor( time / 60 );
+      }
     </script>
 
     <table class="table">

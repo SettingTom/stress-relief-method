@@ -16,12 +16,6 @@ window.onload = function(){
     clearInterval( counter );
   }
 
-  reset.onclick = function() {
-    time = 14;
-    sec.innerHTML = time % 60;
-    min.innerHTML = Math.floor( time / 60 );
-  }
-
   function toggle() {
     if( start.disabled ) {
       start.disabled = false;
