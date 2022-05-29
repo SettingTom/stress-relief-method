@@ -46,10 +46,36 @@
           <td>② 次に3分間ネガティブな思考を紙に書き出してください。頭の中で考えるだけなのはNGです。</td>
         </tr>
         <tr>
+          <td>
+            <div id="timer">
+              <h3>3分タイマー</h3>
+              <p>
+                <span id="min">3</span> 分
+                <span id="sec">00</span> 秒
+              </p>
+              <p>
+                <input type="button" id="start" value="スタート">
+                <input type="button" id="stop" value="ストップ" disabled>
+                <input type="button" id="reset" value="リセット">
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
           <td>③ 最後にその紙をビリビリに破いて捨ててください。</td>
         </tr>
       </tbody>
     </table>
+
+    <script>
+      let time = 180
+
+      reset.onclick = function() {
+        time = 180;
+        sec.innerHTML = time % 60;
+        min.innerHTML = Math.floor( time / 60 );
+      }
+    </script>
 
     <table class="table">
       <thead>
