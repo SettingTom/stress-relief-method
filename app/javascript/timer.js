@@ -25,11 +25,24 @@ window.onload = function(){
 
   function toggle() {
     if( start.disabled ) {
-     start.disabled = false;
-     stop.disabled = true;
-   } else {
-     start.disabled = true
-     stop.disabled = false;
-     }
-   }
+      start.disabled = false;
+      stop.disabled = true;
+    } else {
+      start.disabled = true
+      stop.disabled = false;
+    }
+  }
+
+  function count() {
+    if( time === 0 ) {
+      sec.innerHTML = 0;
+      min.innerHTML = 0;
+      toggle();
+      clearInterval( counter );
+    } else {
+      time -= 1;
+      sec.innerHTML = time % 60;
+      min.innerHTML = Math.floor( time / 60 );
+    }
+  }
 }
