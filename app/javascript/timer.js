@@ -1,5 +1,4 @@
 window.onload = function(){
-  let time = 14;
   let counter;
   let start = document.getElementById("start");
   let stop = document.getElementById("stop");
