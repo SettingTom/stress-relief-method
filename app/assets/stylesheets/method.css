@@ -29,6 +29,11 @@ nav{
   padding: 20px;
 }
 
+#surmometer {
+  transform: rotate(-90deg);
+  height: 160px;
+}
+
 footer{
   background-color: #9ae793;
   padding: 20px 20px 10px 20px;
