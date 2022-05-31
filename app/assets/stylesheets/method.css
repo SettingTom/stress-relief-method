@@ -34,6 +34,31 @@ nav{
   height: 160px;
 }
 
+.surmometer_img {
+  position: absolute;
+  width: 30px;
+  height: 150px;
+  border: solid;
+  background-color: #ffffffff;
+  border: transparent; 
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.surmometer_img::before {
+  content: "";
+	position: absolute;
+  width: 40px;
+  height: 40px;
+  border: solid;
+  background-color: #ffffffff;
+  border: transparent; 
+  border-radius: 20px;
+  margin-left: -5px;
+  margin-top: 112px;
+}
+
 footer{
   background-color: #9ae793;
   padding: 20px 20px 10px 20px;
