@@ -40,7 +40,7 @@
       </thead>
       <tbody>
         <tr>
-          <td>① 以下の温度計を見ながら、今のストレスが何点なのか採点してください<br>
+          <td>① 以下の温度計を操作し、今のストレスが何点なのか採点してください<br>
           「過去に味わったことがないストレス」なら10点、「イライラも不安も感じない」なら0点です。</td>
         </tr>
         <tr>
@@ -59,7 +59,14 @@
               1<br>
               &ensp;まったくストレスを感じていない
             </div>
-            <input type="range" min="0" max="10" step="1" value="0" id=surmometer list="tickmarks">
+            <div class="surmometer_score">
+              <form oninput="op1.value = Number(ex.value);">
+              <input type="range" min="0" max="10" step="1" value="0" id=surmometer name="ex" list="tickmarks">
+              <br><br>
+              <span>&ensp;&ensp;&ensp;ストレス度数</span>
+              <output name="op1">0</output>
+              <span>点</span>
+            </div>
             <%# <datalist id="tickmarks">
               <option value="1">
               <option value="2">
@@ -72,6 +79,7 @@
               <option value="9">
               <option value="10">
             </datalist> %>
+            </form>
           </td>
         </tr>
       </tbody>
