@@ -59,6 +59,27 @@ nav{
   margin-top: 112px;
 }
 
+.surmometer_img::after {
+  content: "";
+	position: absolute;
+  width: 9px;
+  height: 0;
+  border: solid;
+  border-color: #000000; 
+  margin-left: -1px;
+  margin-top: 118px;
+  box-shadow: 
+  0 -11.2px,
+  0 -22.4px,
+  0 -33.6px,
+  0 -44.8px,
+  0 -56.0px,
+  0 -67.2px,
+  0 -78.4px,
+  0 -89.6px,
+  0 -100.8px;
+}
+
 footer{
   background-color: #9ae793;
   padding: 20px 20px 10px 20px;
