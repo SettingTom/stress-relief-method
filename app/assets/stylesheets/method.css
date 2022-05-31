@@ -31,19 +31,21 @@ nav{
 
 #surmometer {
   transform: rotate(-90deg);
-  height: 160px;
+  height: 180px;
+  width: 166px;
+  margin-top: 17px;
 }
 
 .surmometer_img {
   position: absolute;
   width: 30px;
-  height: 150px;
+  height: 180px;
   border: solid;
   background-color: #ffffffff;
   border: transparent; 
   border-radius: 15px;
-  margin-left: 50px;
-  margin-top: 5px;
+  margin-left: 68px;
+  margin-top: 10px;
 }
 
 .surmometer_img::before {
@@ -56,7 +58,7 @@ nav{
   border: transparent; 
   border-radius: 20px;
   margin-left: -5px;
-  margin-top: 112px;
+  margin-top: 152px;
 }
 
 .surmometer_img::after {
@@ -67,18 +69,26 @@ nav{
   border: solid;
   border-color: #000000; 
   margin-left: -1px;
-  margin-top: 118px;
+  margin-top: 155px;
   box-shadow: 
-  0 -11.2px,
-  0 -22.4px,
-  0 -33.6px,
-  0 -44.8px,
-  0 -56.0px,
-  0 -67.2px,
-  0 -78.4px,
-  0 -89.6px,
-  0 -100.8px;
+  0 -15px,
+  0 -30px,
+  0 -45px,
+  0 -60px,
+  0 -75px,
+  0 -90px,
+  0 -105px,
+  0 -120px,
+  0 -135px;
 }
+
+.surmometer_scale {
+  position: absolute;
+  font-size: xx-small;
+  margin-left: 50px;
+  margin-top: 24px;
+}
+
 
 footer{
   background-color: #9ae793;
