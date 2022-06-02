@@ -122,11 +122,10 @@ nav{
   padding: 5px 3px 3px 5px;
   animation: color_change 8s steps(1, start) 0s infinite normal none;
 }
-
 @keyframes color_change {
   0%{
     background-color: #ffffff;
-    }
+  }
   26%{
     background-color: #ff0000;
   }
@@ -135,8 +134,8 @@ nav{
   }
   76%{
     background-color: #00ff00;
-    }
   }
+}
 
 .showy:active [type=checkbox] + span {
   box-shadow:
@@ -149,8 +148,73 @@ nav{
   padding: 0px 1px;
 }
 
-.signal_anime{
-  color: red;
+
+#signal_anime1{
+  visibility:hidden;
+}
+
+#signal_anime2{
+  visibility:hidden;
+}
+
+#signal_anime3{
+  visibility:hidden;
+}
+
+.signal_anime1{
+  animation: signal_send1 2s steps(1, start) 0s infinite normal none;
+}
+@keyframes signal_send1 {
+  0%{
+    visibility: hidden;
+  }
+  26%{
+    visibility: visible;
+  }
+  51%{
+    visibility: visible;
+  }
+  76%{
+    visibility: visible;
+  }
+}
+
+
+.signal_anime2{
+  animation: signal_send2 2s steps(1, start) 0s infinite normal none;
+}
+@keyframes signal_send2 {
+  0%{
+    visibility: hidden;
+  }
+  26%{
+    visibility: hidden;
+  }
+  51%{
+    visibility: visible;
+  }
+  76%{
+    visibility: visible;
+  }
+}
+
+
+.signal_anime3{
+  animation: signal_send3 2s steps(1, start) 0s infinite normal none;
+}
+@keyframes signal_send3 {
+  0%{
+    visibility: hidden;
+  }
+  26%{
+    visibility: hidden;
+  }
+  51%{
+    visibility: hidden;
+  }
+  76%{
+    visibility: visible;
+  }
 }
 /* メンタル・クリアボタン */
 
