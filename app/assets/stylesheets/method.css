@@ -148,6 +148,10 @@ nav{
 .bi-lightning-charge{
   padding: 0px 1px;
 }
+
+.signal_anime{
+  color: red;
+}
 /* メンタル・クリアボタン */
 
 footer{
