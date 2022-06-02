@@ -91,6 +91,133 @@ nav{
   margin-top: 24.5px;
 }
 
+/* メンタル・クリアボタン */
+.showy [type=checkbox] {
+  display: none;
+}
+.showy [type=checkbox] + span {
+  background-color: #f9f9f9;
+  border: solid 1px #666;
+  height: 50px;
+  width: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  vertical-align: bottom;
+
+  box-shadow:
+       1px  1px 2px #fff inset,
+      -1px -1px 2px #ccc inset;
+  padding: 4px;
+}
+.showy [type=checkbox]:checked + span {
+  box-shadow:
+      -1px -1px 2px #fff inset,
+       1px  1px 2px #999 inset;
+  padding: 5px 3px 3px 5px;
+  animation: color_change 8s steps(1, start) 0s infinite normal none;
+}
+@keyframes color_change {
+  0%{
+    background-color: #ffffff;
+  }
+  26%{
+    background-color: #ff0000;
+  }
+  51%{
+    background-color: #0000ff;
+  }
+  76%{
+    background-color: #00ff00;
+  }
+}
+
+.showy:active [type=checkbox] + span {
+  box-shadow:
+      -1px -1px 3px #fff inset,
+       1px  1px 3px #666 inset;
+  padding: 6px 2px 2px 6px;
+}
+
+.bi-lightning-charge{
+  padding: 0px 1px;
+}
+
+
+#signal_anime1{
+  visibility:hidden;
+}
+
+#signal_anime2{
+  visibility:hidden;
+}
+
+#signal_anime3{
+  visibility:hidden;
+}
+
+.signal_anime1{
+  animation: signal_send1 2s steps(1, start) 0s infinite normal none;
+}
+@keyframes signal_send1 {
+  0%{
+    visibility: hidden;
+  }
+  26%{
+    visibility: visible;
+  }
+  51%{
+    visibility: visible;
+  }
+  76%{
+    visibility: visible;
+  }
+}
+
+
+.signal_anime2{
+  animation: signal_send2 2s steps(1, start) 0s infinite normal none;
+}
+@keyframes signal_send2 {
+  0%{
+    visibility: hidden;
+  }
+  26%{
+    visibility: hidden;
+  }
+  51%{
+    visibility: visible;
+  }
+  76%{
+    visibility: visible;
+  }
+}
+
+
+.signal_anime3{
+  animation: signal_send3 2s steps(1, start) 0s infinite normal none;
+}
+@keyframes signal_send3 {
+  0%{
+    visibility: hidden;
+  }
+  26%{
+    visibility: hidden;
+  }
+  51%{
+    visibility: hidden;
+  }
+  76%{
+    visibility: visible;
+  }
+}
+/* メンタル・クリアボタン */
+
 footer{
   background-color: #9ae793;
   padding: 20px 20px 10px 20px;
