@@ -9,7 +9,9 @@
     "@rails/webpacker": "4.3.0",
     "bootstrap": "^5.0.2",
     "jquery": "^3.6.0",
+    "package-lock.json": "^1.0.0",
     "popper.js": "^1.16.1",
+    "rm": "^0.1.8",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
