@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   get 'gets6',    to: 'methods#fry_on_the_wall'
   get 'gets7',    to: 'methods#mental_subtracting.html'
   get 'gets8',    to: 'methods#fivesense_countdown'
+  get 'gets9',    to: 'methods#negative_thinking_labeling'
 end
