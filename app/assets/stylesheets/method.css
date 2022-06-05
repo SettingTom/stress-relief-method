@@ -30,6 +30,10 @@ nav{
 }
 
 /* ストレスサーモメーター */
+.surmometer_tablet{
+  display: none;
+}
+
 #surmometer {
   transform: rotate(-90deg);
   height: 180px;
@@ -192,7 +196,6 @@ nav{
   padding: 0px 1px;
 }
 
-
 #signal_anime1{
   visibility:hidden;
 }
@@ -223,7 +226,6 @@ nav{
   }
 }
 
-
 .signal_anime2{
   animation: signal_send2 2s steps(1, start) 0s infinite normal none;
 }
@@ -241,7 +243,6 @@ nav{
     visibility: visible;
   }
 }
-
 
 .signal_anime3{
   animation: signal_send3 2s steps(1, start) 0s infinite normal none;
@@ -272,8 +273,11 @@ footer{
   body {
     font-size: 100%;
   }
-  datalist{
+  .surmometer_pc{
     display: none;
+  }
+  .surmometer_tablet{
+    display: block;
   }
 }
 /* タブレット表示 */
@@ -283,8 +287,11 @@ footer{
   body {
     font-size: 100%;
   }
-  datalist{
+  .surmometer_pc{
     display: none;
+  }
+  .surmometer_tablet{
+    display: block;
   }
 }
 /* スマホ表示 */
