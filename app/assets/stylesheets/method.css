@@ -34,6 +34,10 @@ nav{
   display: none;
 }
 
+.humburger{
+  display: none;
+}
+
 #surmometer {
   transform: rotate(-90deg);
   height: 180px;
@@ -279,6 +283,9 @@ footer{
   .surmometer_tablet{
     display: block;
   }
+  .humburger{
+    display: inline;
+  }
 }
 /* タブレット表示 */
 
@@ -292,6 +299,9 @@ footer{
   }
   .surmometer_tablet{
     display: block;
+  }
+  .humburger{
+    display: inline;
   }
 }
 /* スマホ表示 */
