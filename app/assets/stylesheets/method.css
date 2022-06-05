@@ -272,6 +272,9 @@ footer{
   body {
     font-size: 100%;
   }
+  datalist{
+    display: none;
+  }
 }
 /* タブレット表示 */
 
@@ -279,6 +282,9 @@ footer{
 @media (max-width: 599px) {
   body {
     font-size: 100%;
+  }
+  datalist{
+    display: none;
   }
 }
 /* スマホ表示 */
