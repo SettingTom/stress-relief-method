@@ -29,6 +29,7 @@ nav{
   padding: 20px;
 }
 
+/* ストレスサーモメーター */
 #surmometer {
   transform: rotate(-90deg);
   height: 180px;
@@ -85,11 +86,55 @@ nav{
 
 .surmometer_scale {
   position: absolute;
+  width: 100%;
   font-size: xx-small;
   /* margin-left: 50px; */
   margin-left: 104px;
   margin-top: 24.5px;
+  display: flex;
 }
+
+.scale9{
+  position: absolute;
+  padding-top: 15px;
+}
+.scale8{
+  position: absolute;
+  padding-top: 30px;
+}
+.scale7{
+  position: absolute;
+  padding-top: 45px;
+}
+.scale6{
+  position: absolute;
+  padding-top: 60px;
+}
+.scale5{
+  position: absolute;
+  padding-top: 75px;
+}
+.scale4{
+  position: absolute;
+  padding-top: 90px;
+}
+.scale3{
+  position: absolute;
+  padding-top: 105px;
+}
+.scale2{
+  position: absolute;
+  padding-top: 120px;
+}
+.scale1{
+  position: absolute;
+  padding-top: 135px;
+}
+.scale0{
+  position: absolute;
+  padding-top: 150px;
+}
+/* ストレスサーモメーター */
 
 /* メンタル・クリアボタン */
 .showy [type=checkbox] {
