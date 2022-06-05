@@ -26,6 +26,13 @@
               <li><%= link_to 'メンタル・サブトラクティング', gets7_path %></li>
               <li><%= link_to 'ファイブセンス・カウントダウン', gets8_path %></li>
               <li><%= link_to 'ネガティブ感情ラベリング', gets9_path %></li>
+              <script>
+                function j(){
+                const u=new Array("gets1","gets2","gets3","gets4","gets5","gets6","gets7","gets8","gets9");
+                location.href=(u[Math.floor(Math.random()*u.length)]);
+                }
+              </script>
+              <a href="JavaScript:j();">ランダム</a>
             </div>
           </ul>
         </li>
