@@ -222,3 +222,19 @@ footer{
   background-color: #9ae793;
   padding: 20px 20px 10px 20px;
 }
+
+/* タブレット表示 */
+@media (max-width: 1024px) {
+  body {
+    font-size: 100%;
+  }
+}
+/* タブレット表示 */
+
+/* スマホ表示 */
+@media (max-width: 599px) {
+  body {
+    font-size: 100%;
+  }
+}
+/* スマホ表示 */
