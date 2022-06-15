@@ -9,6 +9,7 @@ require("@rails/activestorage").start()
 require("channels")
 require("../signal")
 require("../timer");
+require("../negative_thinking_list");
 import "bootstrap"
 import "../stylesheets/application"
 
