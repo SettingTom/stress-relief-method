@@ -36,7 +36,7 @@
  
 
 ## 画面遷移図
- 追記予定
+ [![Image from Gyazo](https://i.gyazo.com/0341fc6fb3da544128339ef041d7e681.png)](https://gyazo.com/0341fc6fb3da544128339ef041d7e681)
 
 ## 開発環境
 - ruby
