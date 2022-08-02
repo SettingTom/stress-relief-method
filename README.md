@@ -7,11 +7,6 @@
 ## URL
  https://stress-relief-method.herokuapp.com/
 
- ID:未設定
- 
- Pass:未設定
-## テスト用アカウント
- なし
 ## 利用方法
 ### メソッド選択
  1.ヘッダーのメソッド一覧のいずれかか、ランダム選択をクリックする。
@@ -32,6 +27,7 @@
  また、全てではないが、各メソッドに本では実装できない機能を設けた。
  例えば、タイマー機能や温度計操作機能(ストレスサーモメーター)、実施方法をアニメーションでイメージしてもらう機能など。
  いずれも紙媒体では実装できない機能である。
+
  [![Image from Gyazo](https://i.gyazo.com/09950d7df47eafcf42c5aaf0a4bb8ef2.gif)](https://gyazo.com/09950d7df47eafcf42c5aaf0a4bb8ef2)
  
 
